@@ -1,2 +1,2 @@
 # fluttercoraline
-Trabalho do filme Coraline - Laura Vargas e Joâo Lucca
+Trabalho do filme Coraline - Laura Vargas e João Lucca
