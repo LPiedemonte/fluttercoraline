@@ -1,22 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutterxdjl/perso.dart';
 
-void main() {
-  runApp(const MaterialApp (title: "App",
-      home: MainApp(),));
-}
+class Perso extends StatelessWidget {
+const Perso({super.key});
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-
-  @override
+@override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-          backgroundColor: Color.fromRGBO(138, 128, 223, 0.749),
-          
-          appBar: AppBar(
+    return Scaffold(
+      appBar: AppBar(
             title: Text(
               'CORALINE',
                style: TextStyle(
@@ -29,38 +19,8 @@ class MainApp extends StatelessWidget {
 
           ),
 
-          drawer: Drawer(
-            child: ListView(
-              padding: .zero,
-              children: <Widget>[
-                const DrawerHeader(
-              decoration: BoxDecoration(color: Color.fromARGB(255, 99, 68, 172)),
-              child: Text(
-                'Menu',
-                style: TextStyle(color: Colors.white, fontSize: 24),
-              ),
-              ),
-              
-              ListTile(
-              
-              leading: const Icon(Icons.account_box),
-              title: const Text('Personagens'),
-              onTap: () {
-                Navigator.push(
-                context,
-                MaterialPageRoute(builder:
-                (context) => const Perso()),
-                );
 
-              },
-        
-            ),
-
-              ],
-            )
-          ),
-
-          body: SingleChildScrollView( child:
+      body: SingleChildScrollView( child:
          Center(
           child: SizedBox(
             height: 980, // Limita a altura
@@ -87,7 +47,7 @@ class MainApp extends StatelessWidget {
               ),
 
               Text(
-                'Uma garota chamada Coraline se muda com os seus pais para uma nova casa:o Palácio Rosa. Passando pelas complicações da mudança e da falta de atenção dos pais, ela encontra uma pequena porta mágica que a leva para um outro mundo onde todos tem olhos de botões. O que parecia ser um lugar melhor e mais aconchegante se torna um pesadelo que quer manter a garota presa lá.',
+                'a',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 20
@@ -123,7 +83,7 @@ class MainApp extends StatelessWidget {
           ),
         ),
       ),
-      ),
+
     );
   }
 }
