@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Perso extends StatelessWidget {
-const Perso({super.key});
+class Livro extends StatelessWidget {
+const Livro({super.key});
 
 @override
   Widget build(BuildContext context) {
@@ -31,11 +31,12 @@ const Perso({super.key});
             spacing: 20.0, 
             children:<Widget>[
 
+
               ElevatedButton(
             style: ElevatedButton.styleFrom(
               backgroundColor: Color.fromRGBO(50, 17, 128, 0.941)), // Cor de fundo do botão
             onPressed:(){
-            Navigator.pop(context);
+             Navigator.pop(context);
             },
 
            child: const Text(

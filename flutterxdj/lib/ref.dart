@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Perso extends StatelessWidget {
-const Perso({super.key});
+class Ref extends StatelessWidget {
+const Ref({super.key});
 
 @override
   Widget build(BuildContext context) {
@@ -30,6 +30,14 @@ const Perso({super.key});
            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             spacing: 20.0, 
             children:<Widget>[
+
+              Card(
+                color: Color.fromRGBO(198, 194, 236, 1),
+            child: ListTile(
+              title: Text('ref1'),
+              trailing: Icon(Icons.arrow_outward),
+            ),
+          ),
 
               ElevatedButton(
             style: ElevatedButton.styleFrom(
