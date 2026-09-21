@@ -31,6 +31,43 @@ const Jogo({super.key});
             spacing: 20.0, 
             children:<Widget>[
 
+              Row( crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+               children: <Widget>[
+              Text('SOBRE O JOGO',
+              style: TextStyle(
+                fontSize: 27,
+                fontWeight: FontWeight.bold,
+                color: Color.fromRGBO(10, 1, 31, 1)
+              ),
+              )
+            ],
+              ),
+
+               Image.asset(
+            'IMG/CoralineTunel.png',width: 400,height: 400,),
+
+              Row( crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+               children: <Widget>[
+              Text('COMPARAÇÃO JOGO X FILME',
+              style: TextStyle(
+                fontSize: 27,
+                fontWeight: FontWeight.bold,
+                color: Color.fromRGBO(10, 1, 31, 1)
+              ),
+              )
+            ],
+              ),
+
+              Text(
+                ' ',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20
+                ),
+              ),
+
               ElevatedButton(
             style: ElevatedButton.styleFrom(
               backgroundColor: Color.fromRGBO(50, 17, 128, 0.941)), // Cor de fundo do botão

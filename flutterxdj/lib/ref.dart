@@ -24,7 +24,7 @@ const Ref({super.key});
       body: SingleChildScrollView( child:
          Center(
           child: SizedBox(
-            height: 980, // Limita a altura
+            height: 480, // Limita a altura
             width: 400,
             child: Column(
            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -35,6 +35,22 @@ const Ref({super.key});
                 color: Color.fromRGBO(198, 194, 236, 1),
             child: ListTile(
               title: Text('ref1'),
+              trailing: Icon(Icons.arrow_outward),
+            ),
+          ),
+
+          Card(
+                color: Color.fromRGBO(198, 194, 236, 1),
+            child: ListTile(
+              title: Text('ref2'),
+              trailing: Icon(Icons.arrow_outward),
+            ),
+          ),
+
+          Card(
+                color: Color.fromRGBO(198, 194, 236, 1),
+            child: ListTile(
+              title: Text('ref3'),
               trailing: Icon(Icons.arrow_outward),
             ),
           ),

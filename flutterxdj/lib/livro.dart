@@ -31,6 +31,42 @@ const Livro({super.key});
             spacing: 20.0, 
             children:<Widget>[
 
+              Row( crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+               children: <Widget>[
+              Text('SOBRE O LIVRO',
+              style: TextStyle(
+                fontSize: 27,
+                fontWeight: FontWeight.bold,
+                color: Color.fromRGBO(10, 1, 31, 1)
+              ),
+              )
+            ],
+              ),
+
+            Image.asset(
+            'IMG/CoralineTunel.png',width: 400,height: 400,),
+
+            Row( crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+               children: <Widget>[
+              Text('COMPARAÇÃO LIVRO X FILME',
+              style: TextStyle(
+                fontSize: 27,
+                fontWeight: FontWeight.bold,
+                color: Color.fromRGBO(10, 1, 31, 1)
+              ),
+              )
+            ],
+              ),
+
+              Text(
+                ' ',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20
+                ),
+              ),
 
               ElevatedButton(
             style: ElevatedButton.styleFrom(
