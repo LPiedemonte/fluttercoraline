@@ -4,6 +4,7 @@ import 'package:flutterxdjl/livro.dart';
 import 'package:flutterxdjl/perso.dart';
 import 'package:flutterxdjl/ref.dart';
 
+
 void main() {
   runApp(const MaterialApp (title: "App",
       home: MainApp(),));
@@ -135,8 +136,12 @@ class MainApp extends StatelessWidget {
                 ),
               ),
 
-            Image.asset(
-            'IMG/CoralineTunel.png',width: 400,height: 400,),
+            Card(
+                color: Color.fromRGBO(198, 194, 236, 1),
+            child: ListTile(
+               
+            ),
+          ),
 
             Text(
                 'O diretor do filme é Henry Selick e foi produzido pelo estúdio LAIKA em 2009. Com uma classifcação indicativa de 10 anos, o filme tem 1h40min de duração (100min) e é uma adaptação do livro Coraline de Neil Gaiman.',
