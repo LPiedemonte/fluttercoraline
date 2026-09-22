@@ -3,6 +3,7 @@ import 'package:flutterxdjl/jogo.dart';
 import 'package:flutterxdjl/livro.dart';
 import 'package:flutterxdjl/perso.dart';
 import 'package:flutterxdjl/ref.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 
 void main() {
@@ -104,7 +105,7 @@ class MainApp extends StatelessWidget {
           body: SingleChildScrollView( child:
          Center(
           child: SizedBox(
-            height: 1200, // Limita a altura
+            height: 1000, // Limita a altura
             width: 430,
             child: Column(
              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -135,13 +136,6 @@ class MainApp extends StatelessWidget {
                   fontSize: 20
                 ),
               ),
-
-            Card(
-                color: Color.fromRGBO(198, 194, 236, 1),
-            child: ListTile(
-               
-            ),
-          ),
 
             Text(
                 'O diretor do filme é Henry Selick e foi produzido pelo estúdio LAIKA em 2009. Com uma classifcação indicativa de 10 anos, o filme tem 1h40min de duração (100min) e é uma adaptação do livro Coraline de Neil Gaiman.',

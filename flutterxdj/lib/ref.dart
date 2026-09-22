@@ -1,4 +1,29 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+Future<void> _abrirLink1() async {
+  final Uri url = Uri.parse('https://www.netflix.com/br/title/70105599');
+  
+  if (!await launchUrl(url)) {
+    throw Exception('Não foi possível acessar $url');
+  }
+}
+
+Future<void> _abrirLink2() async {
+  final Uri url = Uri.parse('https://www.laika.com');
+  
+  if (!await launchUrl(url)) {
+    throw Exception('Não foi possível acessar $url');
+  }
+}
+
+Future<void> _abrirLink3() async {
+  final Uri url = Uri.parse('https://github.com/JoaoPitale/jogoCoraline/wiki');
+  
+  if (!await launchUrl(url)) {
+    throw Exception('Não foi possível acessar $url');
+  }
+}
 
 class Ref extends StatelessWidget {
 const Ref({super.key});
@@ -24,7 +49,7 @@ const Ref({super.key});
       body: SingleChildScrollView( child:
          Center(
           child: SizedBox(
-            height: 480, // Limita a altura
+            height: 400, // Limita a altura
             width: 400,
             child: Column(
            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -34,24 +59,33 @@ const Ref({super.key});
               Card(
                 color: Color.fromRGBO(198, 194, 236, 1),
             child: ListTile(
-              title: Text('ref1'),
+              title: Text('FILME'),
               trailing: Icon(Icons.arrow_outward),
+              onTap: () {
+                _abrirLink1();
+              },
             ),
           ),
 
           Card(
                 color: Color.fromRGBO(198, 194, 236, 1),
             child: ListTile(
-              title: Text('ref2'),
+              title: Text('ESTÚDIO'),
               trailing: Icon(Icons.arrow_outward),
+              onTap: () {
+                _abrirLink2();
+              },
             ),
           ),
 
           Card(
                 color: Color.fromRGBO(198, 194, 236, 1),
             child: ListTile(
-              title: Text('ref3'),
+              title: Text('JOGO'),
               trailing: Icon(Icons.arrow_outward),
+              onTap: () {
+                _abrirLink3();
+              },
             ),
           ),
 

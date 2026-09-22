@@ -24,7 +24,7 @@ const Jogo({super.key});
       body: SingleChildScrollView( child:
          Center(
           child: SizedBox(
-            height: 980, // Limita a altura
+            height: 1050, // Limita a altura
             width: 400,
             child: Column(
            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -45,7 +45,7 @@ const Jogo({super.key});
               ),
 
                Image.asset(
-            'IMG/CoralineTunel.png',width: 400,height: 400,),
+              'IMG/Jogo.png',width: 400,height: 400,),
 
               Row( crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
@@ -61,7 +61,15 @@ const Jogo({super.key});
               ),
 
               Text(
-                ' ',
+                ' O jogo da ênfase nas cenas finais do filme, focando na fuga de Coraline da casa da outra mãe. O objetivo do jogo é passar pelo túnel, desviando dos obstáculos para evitar que a outra mãe, a Beldam, te alcance, sem muito foco em outras partes do filme.',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20
+                ),
+              ),
+
+              Text(
+                ' O projeto também possui mecânicas simples onde seu único objetivo é desviar de obstáculos. Eles não só fazem com que o jogador perca pontos de vida, mas também com que a Beldam se aproxime cada vez mais. A dificuldade do túnel aumenta conforme o jogador se aproxima do final.',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 20

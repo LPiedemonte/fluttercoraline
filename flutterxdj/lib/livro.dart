@@ -24,7 +24,7 @@ const Livro({super.key});
       body: SingleChildScrollView( child:
          Center(
           child: SizedBox(
-            height: 980, // Limita a altura
+            height: 1100, // Limita a altura
             width: 400,
             child: Column(
            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -45,7 +45,7 @@ const Livro({super.key});
               ),
 
             Image.asset(
-            'IMG/CoralineTunel.png',width: 400,height: 400,),
+            'IMG/Livro.png',width: 400,height: 400,),
 
             Row( crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
@@ -61,7 +61,15 @@ const Livro({super.key});
               ),
 
               Text(
-                ' ',
+                ' O livro, escrito por Neil Gaiman, é narrado em terceira pessoa, permitindo que os leitores tenham acesso aos pensamentos e sentimentos de Coraline. Já o filme, dirigido por Henry Selick, utiliza uma abordagem visual para transmitir a história, com foco nas expressões faciais e nas ações dos personagens.',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20
+                ),
+              ),
+
+              Text(
+                ' Uma das diferenças mais notáveis entre o livro e o filme é a presença de Wybie, um personagem que apenas existe no filme e não no conto original. Isso também vale para a Mini Coraline, a boneca que aparece para a garota, que também não existe no livro.',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 20
