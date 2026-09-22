@@ -1,34 +1,42 @@
 [
   {
-    "Nome": "Coraline",
-    "Url": "IMG/Coraline.png"
+    "nome": "Coraline",
+    "url": "IMG/Coraline.png",
+    "descricao": " Coraline é a protagonista do filme e da história. Ela é uma jovem curiosa e corajosa que descobre um mundo paralelo em sua nova casa. Coraline é determinada, inteligente e enfrenta desafios para salvar seus pais."
   },
   {
-    "Nome": "Wybie",
-    "Url": "IMG/Wybie.png"
+    "nome": "Wybie",
+    "url": "IMG/Wybie.png",
+    "descricao": " Wybie é um jovem geek e um tanto ansioso determinado que, em sua versão do outro mundo, se junta à Coraline para explorar o lugar em certos momentos."
   },
   {
-    "Nome": "Mel",
-    "Url": "IMG/Mel.png"
+    "nome": "Mel Jones",
+    "url": "IMG/Mel.png",
+    "descricao": " Mel Jones é a mãe de Coraline. Ela é uma mulher ocupada e preocupada com o trabalho, que muitas vezes não consegue dedicar tempo suficiente à sua filha."
   },
   {
-    "Nome": "Charlie",
-    "Url": "IMG/Charlie.png"
+    "nome": "Charlie Jones",
+    "url": "IMG/Charlie.png",
+    "descricao": " Charlie Jones é o pai de Coraline. Ele é um homem ocupado e preocupado com o trabalho, que muitas vezes não consegue dedicar tempo suficiente à sua filha, (além de não ser um dos melhores cozinheiros)."
   },
   {
-    "Nome": "Beldam",
-    "Url": "IMG/Beldam.png"
+    "nome": "Beldam",
+    "url": "IMG/Beldam.png",
+    "descricao": " Beldam é a antagonista do filme. Ela é uma criatura misteriosa e perigosa que tenta atrair Coraline para o mundo paralelo, se disfarçando de sua figura materna, tentando criar um ambiente a primeira vista acolhedor para manipular a menina."
   },
   {
-    "Nome": "Bobi",
-    "Url": "IMG/Bobi.png"
+    "nome": "Bobinski",
+    "url": "IMG/Bobi.png",
+    "descricao": " Bobinski é um dos personagens secundários do filme. Ele é um homem estranho e excêntrico que possuí alguns ratinhos saltadores."
   },
   {
-    "Nome": "Mirian",
-    "Url": "IMG/Mirian.png"
+    "nome": "Mirian",
+    "url": "IMG/Mirian.png",
+    "descricao": " Mirian é uma das personagens secundárias do filme. Ela mora com a Sra. Spink e ambas são um tanto misteriosas, especialmente quando tentam ler o futuro de Coraline e avisa-lá dos perigos que corre."
   },
   {
-    "Nome": "Spink",
-    "Url": "IMG/Spink.png"
+    "nome": "Spink",
+    "url": "IMG/Spink.png",
+    "descricao": " Spink é uma das personagens secundárias do filme. Ela mora com a Sra. Mirian e ambas são um tanto misteriosas, especialmente quando tentam ler o futuro de Coraline e avisa-lá dos perigos que corre."
   }
 ]
